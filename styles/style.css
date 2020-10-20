@@ -3,6 +3,15 @@ h1 {
     color: red;
 }
 
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
 .col-12 {
-    background-color: blue;
+    background-color:
+}
+
+.col-12 ul {
+    text-align: center;
+    list-style: none;
 }
