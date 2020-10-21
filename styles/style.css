@@ -1,7 +1,22 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+  }
+
+.permis {
+    float: right;
+}
+
 h1 {
     text-align: center;
     color: red;
 }
+
+
 
 h2 {
     border-bottom: 2px solid black;
