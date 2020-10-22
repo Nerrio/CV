@@ -8,7 +8,10 @@ html {
     background-color: #343A40;
   }
 
-
+.navbar-nav {
+    align-content: flex-end;
+}
+  
   /*Je dois fix ça !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .collapse navbar-collapse {
     float: right;
@@ -18,9 +21,7 @@ html {
 
 */
 
-.navbar-nav {
-    
-}
+
 
 .permis {
     float: right;
