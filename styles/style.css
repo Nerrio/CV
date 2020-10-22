@@ -1,16 +1,19 @@
 html {
     position: relative;
     min-height: 100%;
+    
   }
 
+header {
+    
+}
+
   body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 72px; /* Margin bottom by footer height */
     background-color: #343A40;
   }
 
-.navbar-nav {
-    align-content: flex-end;
-}
+
   
   /*Je dois fix ça !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 .collapse navbar-collapse {
@@ -30,27 +33,37 @@ html {
 h1 {
     text-align: center;
     color:#BC243C;
-    padding-bottom: 14px;
+    padding-bottom: 0.2em;
+    margin-bottom: 0;
 }
 
+#h1 {
+    border-radius: 0em;
+}
 
 
 h2 {
     border-bottom: 2px solid black;
     padding-bottom: 4px;
-    border-color:#343A40;;
+    border-color:#BC243C;;
     color: #343A40;
 }
 .col-12 {
-    background-color:#efefef;
-    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .col-12 ul {
     text-align: center;
     list-style: none;
+    margin-bottom: 0;
 }
 
+dl {
+    margin-bottom: 0;
+}
 
 
 .footer {
