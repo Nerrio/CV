@@ -17,8 +17,32 @@ body {
 
 */
 
+/* je dois fix (:hover color: white) ne fonctionne pas non plus à cause de bootstrap   
+.navbar-brand {
+  color: #bc243c;
+}
+*/
+
+#logo {
+  color: #bc243c;
+}
+
+#logo:hover {
+  color: white;
+}
+
+#LM:hover {
+  color: #bc243c;
+}
+
+#CV:hover {
+  color: #bc243c;
+}
+
 .permis {
   float: right;
+  color: #bc243c;
+  font-weight: bold;
 }
 
 h1 {
@@ -76,13 +100,21 @@ dl {
     height: 60px;
   } */
 
-.mail {
-  /* fonctionne pas */
-  margin-right: 0; /* fonctionne pas */
-
-  color: red;
+.tel {
+  color: #bc243c;
 }
 
-.tel {
-  padding-left: 0px;
+.tel:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mail {
+  color: #bc243c;
+  text-decoration: none;
+}
+
+.mail:hover {
+  color: white;
+  text-decoration: none;
 }
