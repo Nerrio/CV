@@ -25,6 +25,7 @@ body {
 
 #logo {
   color: #bc243c;
+  font-weight: bold;
 }
 
 #logo:hover {
@@ -102,6 +103,7 @@ dl {
 
 .tel {
   color: #bc243c;
+  font-weight: bold;
 }
 
 .tel:hover {
@@ -112,6 +114,7 @@ dl {
 .mail {
   color: #bc243c;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .mail:hover {
